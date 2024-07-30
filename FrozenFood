@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Price List</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>Harga</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td>Ayoma Rolade Ayam</td><td>Rp 21.000,00</td></tr>
+            <tr><td>2</td><td>Ayoma Rolade Sapi</td><td>Rp 22.000,00</td></tr>
+            <tr><td>3</td><td>Bartos Burger Sapi Mini</td><td>Rp 11.500,00</td></tr>
+            <tr><td>4</td><td>Bartos Nugget 250gr</td><td>Rp 13.500,00</td></tr>
+            <tr><td>5</td><td>Bernardi Roti Mini</td><td>Rp 28.500,00</td></tr>
+            <tr><td>6</td><td>Bombico Tomyam</td><td>Rp 7.500,00</td></tr>
+            <tr><td>7</td><td>Cedea Baso Ikan</td><td>Rp 27.000,00</td></tr>
+            <tr><td>8</td><td>Cedea Bola Salmon 500g</td><td>Rp 32.000,00</td></tr>
+            <tr><td>9</td><td>Cedea Chikuwa 250g</td><td>Rp 18.000,00</td></tr>
+            <tr><td>10</td><td>Cedea Crab Stik 250g</td><td>Rp 17.000,00</td></tr>
+            <tr><td>11</td><td>Cedea Fish Dumpling Cheese 500g</td><td>Rp 32.000,00</td></tr>
+            <tr><td>12</td><td>Cedea Fish Dumpling Chicken 500g</td><td>Rp 33.000,00</td></tr>
+            <tr><td>13</td><td>Cedea Fish Roll 500g</td><td>Rp 26.000,00</td></tr>
+            <tr><td>14</td><td>Cedea Otak Otak Singapura</td><td>Rp 30.000,00</td></tr>
+            <tr><td>15</td><td>Cedea Steamboat 300g</td><td>Rp 26.000,00</td></tr>
+            <tr><td>16</td><td>Cedea Twister</td><td>Rp 28.000,00</td></tr>
+            <tr><td>17</td><td>Champ Chicken Nugget 250g</td><td>Rp 22.000,00</td></tr>
+            <tr><td>18</td><td>Champ Stik 250g</td><td>Rp 22.000,00</td></tr>
+            <tr><td>19</td><td>Chikuwa 500g</td><td>Rp 32.000,00</td></tr>
+            <tr><td>20</td><td>Del Monte Extra Hot 1kg</td><td>Rp 23.000,00</td></tr>
+            <tr><td>21</td><td>Del Monte Extra Hot 200g</td><td>Rp 8.500,00</td></tr>
+            <tr><td>22</td><td>Del Monte Tomat 200g</td><td>Rp 7.500,00</td></tr>
+            <tr><td>23</td><td>Ebi Furai</td><td>Rp 30.000,00</td></tr>
+            <tr><td>24</td><td>Fiesta Cheese Lover</td><td>Rp 64.000,00</td></tr>
+            <tr><td>25</td><td>Fiesta Chicken Crunch</td><td>Rp 30.000,00</td></tr>
+            <tr><td>26</td><td>Fiesta Chicken Wings</td><td>Rp 64.000,00</td></tr>
+            <tr><td>27</td><td>Fiesta Karage</td><td>Rp 55.000,00</td></tr>
+            <tr><td>28</td><td>Fiesta Shoestring 500g</td><td>Rp 23.000,00</td></tr>
+            <tr><td>29</td><td>Geboy Sosis Ayam Panjang 500g</td><td>Rp 19.000,00</td></tr>
+            <tr><td>30</td><td>Joyday Choco Berry</td><td>Rp 2.000,00</td></tr>
+            <tr><td>31</td><td>Joyday Crunch Choco Lava</td><td>Rp 6.000,00</td></tr>
+            <tr><td>32</td><td>Joyday Crunch Chocolate Malt</td><td>Rp 5.000,00</td></tr>
+            <tr><td>33</td><td>Joyday Kokomi</td><td>Rp 2.000,00</td></tr>
+            <tr><td>34</td><td>Joyday Manggo Smoothies</td><td>Rp 4.000,00</td></tr>
+            <tr><td>35</td><td>Joyday Mocha Crispy</td><td>Rp 4.500,00</td></tr>
+            <tr><td>36</td><td>Joyday Mochi Chocolate</td><td>Rp 3.000,00</td></tr>
+            <tr><td>37</td><td>Joyday Susu Kurma</td><td>Rp 5.000,00</td></tr>
+            <tr><td>38</td><td>Joyday Vanilla Milkshake</td><td>Rp 5.000,00</td></tr>
+            <tr><td>39</td><td>Kanzler Beef Cocktail 500g</td><td>Rp 53.000,00</td></tr>
+            <tr><td>40</td><td>Kanzler Nugget 120g</td><td>Rp 18.000,00</td></tr>
+            <tr><td>41</td><td>Kanzler Nugget Crispy 450g</td><td>Rp 43.000,00</td></tr>
+            <tr><td>42</td><td>Kanzler Single Cheese</td><td>Rp 8.500,00</td></tr>
+            <tr><td>43</td><td>Kanzler Single Cheese Besar</td><td>Rp 95.000,00</td></tr>
+            <tr><td>44</td><td>Kanzler Sosis Small</td><td>Rp 30.000,00</td></tr>
+            <tr><td>45</td><td>Kanzler Stik Nugget Crispy</td><td>Rp 43.000,00</td></tr>
+            <tr><td>46</td><td>Kerupuk Udang Padi dan Kupas</td><td>Rp 16.000,00</td></tr>
+            <tr><td>47</td><td>Korean Odang</td><td>Rp 28.000,00</td></tr>
+            <tr><td>48</td><td>Korent Salam</td><td>Rp 17.000,00</td></tr>
+            <tr><td>49</td><td>Mamay Mayonaise</td><td>Rp 7.500,00</td></tr>
+            <tr><td>50</td><td>Minaku Kaki Naga</td><td>Rp 20.000,00</td></tr>
+            <tr><td>51</td><td>Minaku Otak Otak</td><td>Rp 20.000,00</td></tr>
+            <tr><td>52</td><td>Mini Pao Ayam</td><td>Rp 15.000,00</td></tr>
+            <tr><td>53</td><td>Mini Pao Coklat</td><td>Rp 15.000,00</td></tr>
+            <tr><td>54</td><td>Mini Pao Kacang Hijau</td><td>Rp 15.000,00</td></tr>
+            <tr><td>55</td><td>Mini Pao Sapi</td><td>Rp 15.000,00</td></tr>
+            <tr><td>56</td><td>Mitroku Ekor Udang</td><td>Rp 29.000,00</td></tr>
+            <tr><td>57</td><td>Mitroku Steamboat Tomyam 500g</td><td>Rp 33.000,00</td></tr>
+            <tr><td>58</td><td>Mixed Vegetable</td><td>Rp 21.000,00</td></tr>
+            <tr><td>59</td><td>Muantap Frankfurer Mini 500g</td><td>Rp 26.000,00</td></tr>
+            <tr><td>60</td><td>Ngetop Kornet 450g</td><td>Rp 18.000,00</td></tr>
+            <tr><td>61</td><td>Palmia</td><td>Rp 7.000,00</td></tr>
+            <tr><td>62</td><td>Pempek Nala</td><td>Rp 17.000,00</td></tr>
+            <tr><td>63</td><td>Salam Sosis Bakar Mini</td><td>Rp 26.000,00</td></tr>
+            <tr><td>64</td><td>Saos Keju</td><td>Rp 23.000,00</td></tr>
+            <tr><td>65</td><td>Slice Beef Sirloin</td><td>Rp 38.500,00</td></tr>
+            <tr><td>66</td><td>Slice Beef Tenderloin</td><td>Rp 38.000,00</td></tr>
+            <tr><td>67</td><td>So Eco Nugget 500g</td><td>Rp 20.000,00</td></tr>
+            <tr><td>68</td><td>So Good Alphabet 400g</td><td>Rp 40.000,00</td></tr>
+            <tr><td>69</td><td>So Good Dino</td><td>Rp 40.000,00</td></tr>
+            <tr><td>70</td><td>Sukoy IIm</td><td>Rp 16.000,00</td></tr>
+            <tr><td>71</td><td>Sunfish Ekor Udang 450g</td><td>Rp 29.000,00</td></tr>
+            <tr><td>72</td><td>Sunfish Kembang Cumi</td><td>Rp 31.000,00</td></tr>
+            <tr><td>73</td><td>Wahid Bakso</td><td>Rp 20.000,00</td></tr>
+            <tr><td>74</td><td>Yona Beef Patties</td><td>Rp 38.000,00</td></tr>
+            <tr><td>75</td><td>Yona Beef Smoked Patties</td><td>Rp 29.000,00</td></tr>
+        </tbody>
+    </table>
+</body>
+</html>
